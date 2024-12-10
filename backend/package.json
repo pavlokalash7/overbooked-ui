@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "description": "A Node.js/TypeScript application for personalized recommendations",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc && tsc-alias",
+    "start": "node build/src/server.js",
+    "test": "jest",
+    "lint": "eslint 'src/**/*.ts' --fix"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/react": "^18.3.12",
+    "@types/supertest": "^6.0.2",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "envalid": "^8.0.0",
+    "express": "^4.21.1",
+    "express-validator": "^6.15.0",
+    "http-status-codes": "^2.3.0",
+    "luxon": "^3.5.0",
+    "mongoose": "^8.8.2",
+    "winston": "^3.17.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@eslint/js": "^9.15.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.2",
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^18.16.19",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.12.0",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.1.6",
+    "typescript-eslint": "^8.15.0"
+  },
+  "engines": {
+    "node": "22.11.0"
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+}
